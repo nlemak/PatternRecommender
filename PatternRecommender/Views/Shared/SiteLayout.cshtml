@@ -1,0 +1,19 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>@ViewBag.Title</title>
+    <link href="~/Contents/style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <div id="header">
+        <a href="/">Home</a>
+        <a href="/rec">Recommendations</a>
+        <a href="/bkmrks">Bookmarks</a>
+        <a href="/pref">Preferences</a>
+    </div>
+
+    <div>
+        @RenderBody()
+    </div>
+</body>
+</html>

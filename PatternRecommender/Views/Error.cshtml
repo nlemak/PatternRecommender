@@ -1,0 +1,15 @@
+﻿@model System.Exception
+
+@{
+    ViewBag.Title = "Pattern Recommender Error Page";
+}
+
+<h2>An error has occurred!</h2>
+<table>
+    <tr>
+        <td>@Model.Message</td>
+    </tr>
+    <tr>
+        <td>@Model.InnerException</td>
+    </tr>
+</table>
